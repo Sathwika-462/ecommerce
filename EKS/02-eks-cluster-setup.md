@@ -2,7 +2,7 @@
 
 Please follow the prerequisites doc before this.
 
-## Install using Fargate
+## Install EKS (Default EC2 Nodes)
 
 ```
 eksctl create cluster --name demo-cluster-three-tier-1 --region us-east-1
