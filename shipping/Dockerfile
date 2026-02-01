@@ -1,3 +1,4 @@
+docker pull openjdk:8-jdk-slim
 #
 # Build
 #
@@ -21,7 +22,9 @@ RUN mvn package
 #
 # Run
 #
-FROM openjdk:8-jdk
+FROM openjdk:8u362-jdk
+
+
 
 EXPOSE 8080
 
